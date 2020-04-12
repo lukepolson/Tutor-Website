@@ -106,7 +106,7 @@ p {
 
 .tm-intro { max-width: 580px; }
 h4 { font-size: 1.5rem; }
-.tm-text-primary { color: #0099FF; font-size: 1.2rem;}
+.tm-text-primary { color: #0099FF; font-size: 1.5vw;}
 .tm-text-primary-link { color: #0099FF; }
 .tm-text-primary-link:hover { color: rgb(15, 133, 211); }
 
@@ -424,4 +424,17 @@ select:not([multiple]) {
         margin-right: 0;
         margin-bottom: 30px;
     }
+}
+
+.videoInsert {
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
 }
