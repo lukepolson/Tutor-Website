@@ -106,7 +106,7 @@ p {
 
 .tm-intro { max-width: 580px; }
 h4 { font-size: 1.5rem; }
-.tm-text-primary { color: #0099FF; font-size: 1.5rem;}
+.tm-text-primary { color: #0099FF; font-size: 1.2rem;}
 .tm-text-primary-link { color: #0099FF; }
 .tm-text-primary-link:hover { color: rgb(15, 133, 211); }
 
@@ -427,11 +427,11 @@ select:not([multiple]) {
 }
 
 .videoInsert {
-    position: absolute; 
+    position: relative; 
     left: 0; 
-    bottom: 0;
-    width: 50%; 
-    height: 50%; 
+    top: 0;
+    width: 70%; 
+    height: 70%; 
     z-index: 1 !important;
     background-size: cover;
     overflow: hidden;
