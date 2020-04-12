@@ -429,7 +429,6 @@ select:not([multiple]) {
 .videoInsert {
     position: relative; 
     left: 0; 
-    top: 0;
     width: 70%; 
     height: 70%; 
     z-index: 1 !important;
