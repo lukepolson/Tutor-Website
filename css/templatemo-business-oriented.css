@@ -428,14 +428,11 @@ select:not([multiple]) {
 
 .videoInsert {
     position: absolute; 
-    right: 0; 
+    left: 0; 
     bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    width: auto; 
-    height: auto; 
-    z-index: -100;
+    width: 50%; 
+    height: 50%; 
+    z-index: 1 !important;
     background-size: cover;
     overflow: hidden;
-	object-fit: cover;
 }
