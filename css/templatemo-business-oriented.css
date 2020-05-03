@@ -206,7 +206,7 @@ footer {
     margin-bottom: 0;  
     width: 100%;
     height: auto;  
-    max-width: 460px;  
+    max-width: 460px;
 }
 
 .tm-about-person {
@@ -216,6 +216,7 @@ footer {
 	background: #3085a3;
 	text-align: right-side;
 	cursor: pointer;
+	float: left;
 }
 
 .tm-about-person img {
